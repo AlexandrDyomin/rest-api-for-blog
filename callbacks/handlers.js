@@ -1,7 +1,7 @@
 const closeConnSendRes = ( connection, response ) => {
     return( (err, result ) => {
         if ( err ) {
-            console.log('Ошибка запроса' + err);
+            console.log( 'Ошибка запроса' + err );
         } else {
             connection.end();
             response.status( 200 ).send( result );
@@ -11,7 +11,7 @@ const closeConnSendRes = ( connection, response ) => {
 
 const processErrConn = ( err ) => {
     if ( err ) {
-        console.log( 'Ошибка соединения');
+        console.log( 'Ошибка соединения' );
     }
 }
 

@@ -1,7 +1,7 @@
 const authData = {
     host: 'localhost', 
-    user: 'alexandr', 
-    password:'FlatronL192WS',
+    user: 'Alexandr', 
+    password:'123',
     database: 'Bloggers_and_blogs'
 };
 
